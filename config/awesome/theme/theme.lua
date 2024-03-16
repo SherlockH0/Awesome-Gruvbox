@@ -17,7 +17,7 @@ local icons = require("icons")
 --- ░▀░░░▀▀▀░▀░▀░░▀░░▀▀▀
 
 --- Ui Fonts
-theme.font_name = "Roboto "
+theme.font_name = "FantasqueSansM Nerd Font "
 theme.font = theme.font_name .. "Medium 10"
 
 --- Icon Fonts
@@ -113,7 +113,7 @@ theme.release_event = "#ffffff" .. "10"
 theme.widget_bg = "#1b1d1e"
 
 --- Titlebars
-theme.titlebar_enabled = true
+theme.titlebar_enabled = false
 theme.titlebar_bg = theme.black
 theme.titlebar_fg = theme.white
 
@@ -157,7 +157,7 @@ theme.music_accent = theme.lighter_black
 --- ░▀▀▀░▀▀▀░░░▀▀▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀░░▀░░▀▀▀
 
 --- Wallpapers
-theme.wallpaper = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/wave.png")
+theme.wallpaper = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/dune.jpg")
 --- theme.wallpaper = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/yoru-dots.png")
 --- theme.wallpaper = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/mountain.jpg")
 --- theme.wallpaper = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/rocks.jpg")
